@@ -1,0 +1,85 @@
+body{
+    font-family: sans-serif;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    background-color: rgb(255, 252, 98);
+    margin-bottom: ;
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+}
+.titulo-principal, .contenedor-menu{
+    width: 50%;
+    align-items: center;
+    height: 60px;
+}
+.menu-principal{
+    display: flex;    
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-principal__item> a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.servicios{
+    background-color: rgb(106, 91, 247);
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.servicios-contenedor{
+    margin: 20px;
+    background-color:rgb(178, 178, 241);
+}
+
+.servicios-texto{
+    align-items: justify;
+    margin: 10px;
+}
+
+.noticias{
+    background-color: rgb(233, 137, 48);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+}
+.noticia{
+    background-color: rgb(124, 255, 124);
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    width: 500px;
+    height: 400px;   
+}
+
+.miembros{
+    background-color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.integrante{
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: #f5ca7a;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left ;
+}
